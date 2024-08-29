@@ -1,0 +1,39 @@
+/* Estiliza a lista não ordenada (<ul>) dentro do elemento <nav> */
+nav ul {
+    display: flex; /* Aplica o layout flexível, organizando os itens de <ul> em uma linha horizontal */
+    flex-direction: row; /* Garante que os itens de lista (<li>) sejam dispostos em uma linha (padrão para flex-direction) */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estiliza os itens de lista (<li>) dentro da lista não ordenada em <nav> */
+nav ul li {
+    list-style: none; /* Remove os marcadores padrão dos itens da lista */
+    height: 125px; /* Define a altura dos itens da lista para 125 pixels */
+    padding: 0 25px 0 0; /* Aplica um preenchimento à direita de 25 pixels, sem preenchimento em outros lados */
+}
+
+/* Estiliza os itens de lista (<li>) quando o mouse passa sobre eles */
+nav ul li:hover {
+    background: #444444; /* Altera a cor de fundo dos itens da lista para um cinza escuro quando o mouse está sobre eles */
+}
+
+/* Estiliza o elemento <nav> */
+nav {
+    height: 125px; /* Define a altura do <nav> como 125 pixels */
+    max-width: 1480px; /* Define a largura máxima do <nav> como 1480 pixels */
+    min-width: 1080px; /* Define a largura mínima do <nav> como 1080 pixels */
+    background-color: black; /* Define a cor de fundo do <nav> como preto */
+}
+
+/* Estiliza a imagem dentro do elemento com id "logo" dentro de <nav> */
+nav #logo img {
+    height: 75px; /* Define a altura da imagem como 75 pixels */
+    margin: 25px; /* Adiciona uma margem de 25 pixels em todos os lados da imagem */
+    float: left; /* Faz com que a imagem flutue à esquerda, permitindo que outros elementos a rodeiem */
+}
+
+/* Estiliza o elemento com id "main-menu" dentro de <nav> */
+nav #main-menu {
+    float: right; /* Faz com que o menu principal flutue à direita do seu container, alinhando-o ao lado direito do <nav> */
+}
